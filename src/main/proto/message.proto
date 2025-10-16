@@ -1,0 +1,7 @@
+ syntax = "proto3";
+
+package com.dddga.messagemod;
+
+message Message {
+  string text = 1;
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "message-mod",
+	"version": "${version}",
+	"name": "Message Mod",
+	"description": "Minecraft mod with protobuf and PostgreSQL",
+	"authors": [
+		"MrZloyHomyak"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/message-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dddga.messagemod.MessageMod"
+		],
+		"client": [
+			"com.dddga.messagemod.MessageModClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
